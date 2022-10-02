@@ -1,0 +1,74 @@
+{
+    "id": "pf2e-investigators-pnc",
+    "title": "PF2e Investigators: Pivots & Complications",
+    "description": "Introduces new Investigator feats that smoothen the in-combat gameplay.",
+    "url": "https://github.com/ExampleRepo/PF2e-Example",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Cerapter",
+            "discord": "Cerapter#2415"
+        }
+    ],
+    "compatibility": {
+        "minimum": "10.286",
+        "verified": "10.286"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "4.1.3"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "label": "Investigators: P&C - Feats",
+            "type": "Item",
+            "name": "investigators-pnc-feats",
+            "path": "./packs/investigators-pnc-feats.db",
+            "system": "pf2e",
+            "package": "pf2e-investigators-pnc",
+            "private": false
+        },
+        {
+            "label": "Investigators: P&C - Effects",
+            "type": "Item",
+            "name": "investigators-pnc-effects",
+            "path": "./packs/investigators-pnc-effects.db",
+            "system": "pf2e",
+            "package": "pf2e-investigators-pnc",
+            "private": false
+        },
+        {
+            "label": "Investigators: P&C - Class Features",
+            "type": "Item",
+            "name": "investigators-pnc-class-features",
+            "path": "./packs/investigators-pnc-class-features.db",
+            "system": "pf2e",
+            "package": "pf2e-investigators-pnc",
+            "private": false
+        }
+    ],
+    "flags": {
+        "pf2e-investigators-pnc": {
+            "pf2e-homebrew": {
+                "featTraits": {
+                    "complication": {
+                        "label": "Complication",
+                        "description": "Feats with the complication trait allow you to capitalise on a good Devise a Stratagem roll further. When you take an action with the complication trait, until the start of your next turn, the next check you substitute your Devise a Stratagem roll for is modified according to the complication action's description, and the check takes a -2 penalty. You may only use one action with the complication trait per round."
+                    },
+                    "pivot": {
+                        "label": "Pivot",
+                        "description": "Feats with the pivot trait can be used to discard the result rolled from the Devise a Stratagem action. You must use pivot actions immediately after you used the Devise a Stratagem action. When you do so, you lose the result of the roll from Devise a Stratagem, unable to substitute it for a Strike later during your round, then use the ability described in the action. As a pivot action discards your Devise a Stratagem roll, and pivot actions need a Devise a Stratagem roll to be used, you can typically only use one pivot action per round. Pivot feats may also have a Turnabout line in their description. If the dice value of your discarded Devise a Stratagem roll was 15 or higher, you may choose to also follow the abilities written in that line."
+                    }
+                }
+            }
+        }
+    }
+}

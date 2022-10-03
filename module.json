@@ -2,7 +2,9 @@
     "id": "pf2e-investigators-pnc",
     "title": "PF2e Investigators: Pivots & Complications",
     "description": "Introduces new Investigator feats that smoothen the in-combat gameplay.",
-    "url": "https://github.com/ExampleRepo/PF2e-Example",
+    "url": "https://github.com/Cerapter/pf2e-investigators-pnc",
+    "manifest": "https://raw.githubusercontent.com/Cerapter/pf2e-investigators-pnc/master/module.json",
+    "download": "https://github.com/Cerapter/pf2e-investigators-pnc/raw/v0.2/main.zip",
     "version": "1.0",
     "authors": [
         {

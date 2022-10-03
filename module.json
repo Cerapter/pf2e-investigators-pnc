@@ -53,6 +53,14 @@
             "system": "pf2e",
             "package": "pf2e-investigators-pnc",
             "private": false
+        },
+        {
+            "label": "Investigators: P&C - Macros",
+            "name": "investigators-pnc-macros",
+            "system": "pf2e",
+            "path": "packs/investigators-pnc-macros.db",
+            "type": "Macro",
+            "private": false
         }
     ],
     "flags": {
